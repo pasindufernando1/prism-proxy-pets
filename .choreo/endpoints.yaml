@@ -20,3 +20,17 @@ endpoints:
     # This is only applicable to REST endpoint types.
     # The path should be relative to the docker context.
     schemaFilePath: petstore.yaml
+
+  - name: petstorev2
+    port: 8081
+    type: REST
+    networkVisibility: Public
+    context: /
+    schemaFilePath: petstore.yaml
+
+  - name: petstorev3
+    port: 8082
+    type: REST
+    networkVisibility: Public
+    context: /
+    schemaFilePath: petstore.yaml
