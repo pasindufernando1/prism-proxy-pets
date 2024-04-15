@@ -22,14 +22,14 @@ endpoints:
     schemaFilePath: petstore.yaml
 
   - name: petstorev2
-    port: 8081
+    port: 8080
     type: REST
     networkVisibility: Public
     context: /
     schemaFilePath: petstore.yaml
 
   - name: petstorev3
-    port: 8082
+    port: 8080
     type: REST
     networkVisibility: Public
     context: /
