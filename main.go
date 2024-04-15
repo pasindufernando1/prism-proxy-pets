@@ -83,6 +83,6 @@ func main() {
 	// router.GET("/pets/:id/owner",getPetOwner)
 
 	router.NoRoute(handleNotImplemented)
-	router.Run("localhost:8080")
+	router.Run(":8080")
 
 }
